@@ -1,0 +1,25 @@
+Ver 1.3.0
+1. 为索引文件引入freelist，这样因删除块而产生的空位便可以再次利用。围绕此功能，为IndexFile类新增emptyBlocksOffset成员，新增removeIndexBlock函数，并调整已有的函数以适配这一功能。
+2. 增强索引文件的offset合法性检查并将其封装为函数。
+3. 修复了一些bug。
+
+Ver 1.2.3
+1. 为RecordBlock和IndexBlock增加returnFilePtr函数，使得块的使用者可以调用文件对象的公有函数。
+2. 增强RecordFile::returnFreeSlotOffset和RecordFile::removeFreeSlot函数的安全性。
+3. 为RecordFile增添insertFreeSlotOffset函数。
+4. 为RecordBlock增添RECORD_LEN成员，现在块使用者可以直接获知元组长度而无需经过文件对象。为RecordBlock添加setAllSlotsAvailable函数，在返回新块时将所有槽位置为空闲。
+5. 修复了一些bug。
+
+Ver 1.2.2
+1. 为IndexBlock增加字段nextSibling，作为叶节点下一个兄弟节点的指针。
+2. 修复了BufferManager.cpp的一些bug。
+
+Ver 1.2.1
+新增函数dropIndex.
+
+Ver 1.2.0
+取消了异常机制。
+
+Ver 1.1.0
+1. 为FileInfo类，RecordFile类，IndexFile类，BlockInfo类，RecordBlock类，IndexBlock类添加构造函数，为RecordBlock类和IndexBlock类添加析构函数。
+2. 增加异常类FileCannotOpenException，TableNotExistException和AttriNotExistException，为函数openRecordFile和openIndexFile增加异常声明。

@@ -1,0 +1,10 @@
+﻿  Interpreter.cpp
+e:\项目\c++\2年级\minisql v3\大程\interpreter.cpp(192): warning C4018: “<”: 有符号/无符号不匹配
+e:\项目\c++\2年级\minisql v3\大程\interpreter.cpp(203): warning C4018: “<”: 有符号/无符号不匹配
+e:\项目\c++\2年级\minisql v3\大程\interpreter.cpp(235): warning C4018: “<”: 有符号/无符号不匹配
+e:\项目\c++\2年级\minisql v3\大程\interpreter.cpp(246): warning C4018: “<”: 有符号/无符号不匹配
+e:\项目\c++\2年级\minisql v3\大程\interpreter.cpp(411): warning C4018: “<”: 有符号/无符号不匹配
+e:\项目\c++\2年级\minisql v3\大程\interpreter.cpp(441): warning C4018: “<”: 有符号/无符号不匹配
+e:\项目\c++\2年级\minisql v3\大程\interpreter.cpp(132): warning C4715: “check_type”: 不是所有的控件路径都返回值
+e:\项目\c++\2年级\minisql v3\大程\interpreter.cpp(611): warning C4715: “open_execfile”: 不是所有的控件路径都返回值
+  大程.vcxproj -> E:\项目\C++\2年级\MiniSQL v3\Debug\大程.exe

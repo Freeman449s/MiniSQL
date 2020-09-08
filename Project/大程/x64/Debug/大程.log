@@ -1,0 +1,24 @@
+﻿  RecordManager.cpp
+c:\users\asus\desktop\minisql作业提交\源代码\大程\buffermanager.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\asus\desktop\minisql作业提交\源代码\大程\buffermanager.h(378): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(29): warning C4133: “-”: 从“void *”到“char *”的类型不兼容
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(29): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(44): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(50): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(75): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(188): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(220): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(260): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(297): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(424): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(502): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(618): warning C4133: “-”: 从“void *”到“char *”的类型不兼容
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(618): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(277): warning C4700: 使用了未初始化的局部变量“un_ne_record”
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(420): warning C4715: “judge”: 不是所有的控件路径都返回值
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(358): warning C4715: “isWhereOne”: 不是所有的控件路径都返回值
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(384): warning C4715: “isWhereTwo”: 不是所有的控件路径都返回值
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(495): warning C4715: “judge”: 不是所有的控件路径都返回值
+c:\users\asus\desktop\minisql作业提交\源代码\大程\recordmanager.cpp(456): warning C4715: “judge”: 不是所有的控件路径都返回值
+  大程.vcxproj -> C:\Users\Asus\Desktop\MiniSQL作业提交\源代码\x64\Debug\大程.exe
